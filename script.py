@@ -55,7 +55,7 @@ def machineIP():
 
 # print all results to command line
 def printFromResult():
-  file = open("output/result.txt", "r")
+  file = open("result.txt", "r")
   print(file.read())
   file.close()
 
@@ -84,7 +84,8 @@ def scriptActions():
   # Write the results to a text file at /home/data/output/result.txt.
   if (not os.path.exists("output")):
     os.mkdir("output")
-  result = open("output/result.txt", "w")
+  os.chdir(os.getcwd() + "/output")
+  result = open("result.txt", "w")
   
   result.write(f"There are {wordsIF} words in IF.txt\n")
   result.write(f"There are {wordsARUTW} words in IF.txt\n")

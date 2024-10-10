@@ -14,7 +14,7 @@ COPY script.py .
 COPY IF.txt .
 COPY AlwaysRememberUsThisWay.txt .
 
-RUN mkdir /home/data/output
+CMD ["mkdir", "/home/data/output"]
 
 # Run script
-CMD ["python3", "script.py"]
+RUN python3 script.py
