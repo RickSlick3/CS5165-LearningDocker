@@ -13,7 +13,8 @@
       - will run and remove the container after execution, must use terminal output as results
  
   - `docker run -ti my-python-container bash`
-    - will allow you to look at the output file in the container after running   
+    - will allow you to look at the output file in the container
+    - use `cat /home/data/output/result.txt`
 
 - tag the container
   - `docker tag my-python-container your-dockerhub-username/my-python-container`
