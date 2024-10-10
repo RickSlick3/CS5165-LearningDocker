@@ -16,5 +16,5 @@ COPY AlwaysRememberUsThisWay.txt .
 
 RUN mkdir /home/data/output
 
-#<Add additional commands such as RUN>
+# Run script
 CMD ["python3", "script.py"]
