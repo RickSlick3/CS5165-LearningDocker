@@ -9,7 +9,7 @@
  
 - use this command to run the Docker container:
   -  `docker run --rm my-python-container`
-      - will run and remove thecontainer after execution, must use terminal output as results
+      - will run and remove the container after execution, must use terminal output as results
  
   - `docker run -ti my-python-container bash`
     - will allow you to look at the output file in the container after running   
