@@ -12,4 +12,4 @@
       - will run and remove thecontainer after execution, must use terminal output as results
  
   - `docker run -ti my-python-container bash`
-    - will allow you to loop at the output file in the container after running   
+    - will allow you to look at the output file in the container after running   
