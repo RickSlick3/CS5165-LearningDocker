@@ -16,7 +16,7 @@
   - use `cat /home/data/output/result.txt`
 
 ### tag the container
-- `docker tag my-python-container your-dockerhub-username/my-python-container`
+- `docker tag my-python-container <DOCKERHUB_USERNAME>/my-python-container`
  
 ### save image to .tar file
 - `docker save -o <FILE_NAME>.tar my-python-container`
