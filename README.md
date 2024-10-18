@@ -24,9 +24,12 @@
 ### load image from .tar file
 - `docker load -i <FILE_NAME>.tar`
 
-### Docker Compose:
+### Docker Compose (EXTRA CREDIT):
 - download/make `docker-compose.yaml`, then launch containers
   - `docker compose up`
   - command line and docker desktop should display outputs of the 2 containers
   - `docker compose ps --all` to show containers created with docker compose
+<<<<<<< HEAD
   - `docker compose down` to remove containers
+=======
+>>>>>>> c104730acd0c60e366a1bd6714113593a870d9a3
