@@ -1,0 +1,5 @@
+services:
+    my-python-app:
+        image: my-python-container
+        deploy:
+            replicas: 2

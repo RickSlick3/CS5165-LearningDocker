@@ -24,8 +24,6 @@
 ### load image from .tar file
 - `docker load -i <FILE_NAME>.tar`
 
-### Docker Swarm Setup:
-- If using Docker Swarm, initialize the swarm:
-  - docker swarm init
-- Create a service with 2 replicas:
-  - docker service create --name my-python-app --replicas 2 my-python-container
+### Docker Compose:
+- download/make `docker-compose.yaml`, then launch containers
+  - `docker compose up -d`
