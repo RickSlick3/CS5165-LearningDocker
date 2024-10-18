@@ -1,5 +1,4 @@
 # Base image
-# FROM ubuntu:22.04
 FROM python:3.9-slim
 
 # Evnironment setup
@@ -14,7 +13,8 @@ COPY script.py .
 COPY IF.txt .
 COPY AlwaysRememberUsThisWay.txt .
 
-CMD ["mkdir", "/home/data/output"]
+# CMD ["mkdir", "-p", "/home/data/output"]
+RUN mkdir -p /home/data/output
 
 # Run script
-RUN python3 script.py
+CMD ["python3", "script.py"]
