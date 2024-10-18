@@ -5,8 +5,8 @@
 ## Windows Commands
 
 ### build the image:
-- `docker buildx b -t my-python-container . -f Dockerfile.txt`
-  - delete `-f Dockerfile.txt` if the Dockerfile doesn't have a file extension
+- `docker buildx b -t my-python-container .`
+  - add `-f Dockerfile.txt` if the Dockerfile have a `.txt` extension
  
 ### run the Docker container:
 - `docker run --rm my-python-container`
