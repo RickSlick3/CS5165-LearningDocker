@@ -29,3 +29,4 @@
   - `docker compose up`
   - command line and docker desktop should display outputs of the 2 containers
   - `docker compose ps --all` to show containers created with docker compose
+  - `docker compose down` to remove containers
