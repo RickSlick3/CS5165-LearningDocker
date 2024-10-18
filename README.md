@@ -6,7 +6,7 @@
 
 ### build the image:
 - `docker buildx b -t my-python-container .`
-  - add `-f Dockerfile.txt` if the Dockerfile have a `.txt` extension
+  - add `-f Dockerfile.txt` if the Dockerfile has a `.txt` extension
  
 ### run the Docker container:
 - `docker run --rm my-python-container`
