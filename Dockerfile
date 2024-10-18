@@ -13,8 +13,11 @@ COPY script.py .
 COPY IF.txt .
 COPY AlwaysRememberUsThisWay.txt .
 
-# CMD ["mkdir", "-p", "/home/data/output"]
+# Create output directory
 RUN mkdir -p /home/data/output
 
 # Run script
+RUN python3 script.py
+
+# makes sure the script prints to the terminal
 CMD ["python3", "script.py"]
